@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="auth">
+        <form id="loginForm" class="hide">
+          <input type="text" id="username" />
+          <input type="password" id="password" />
+          <button type="submit">Login</button>
+        </form>
+
+        <div id="authorized" class="hide">You are logged in</div>
+      </div>
+
+      <div id="todoListContainer" class="hide">
+        <form id="addTodoForm">
+          <input type="text" id="newTodoTitle" />
+          <input type="checkbox" id="newTodoCompleted" />
+          <button type="submit">Add</button>
+        </form>
+
+        <ul id="todoList"></ul>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

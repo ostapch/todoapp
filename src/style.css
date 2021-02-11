@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+#app {
+  width: 500px;
+  margin: 30px auto;
+}
+
+#auth {
+  display: flex;
+  justify-content: center;
+}
+
+#todoListContainer {
+  padding: 15px;
+  margin-top: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul input {
+  border: none;
+}
